@@ -6,7 +6,7 @@
     "node":"14.x"
   },
   "scripts": {
-    "build": "node views/index.ejs"
+    "build": "node ./views/index.ejs"
   },
   "author": "",
   "license": "ISC",
