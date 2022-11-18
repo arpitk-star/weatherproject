@@ -1,9 +1,9 @@
 {
   "name": "weatherproject",
   "version": "1.0.0",
-  "main": "./views/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node ./views/index.js"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
