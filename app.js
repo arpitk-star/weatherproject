@@ -1,11 +1,11 @@
 const express = require("express");
-const product = require("./api/product");
+
 const https = require("https");
 const date = require(__dirname + "/date.js");
 
 const app = express();
 const port = process.env.PORT || 3000;
-app.use("/api/product",product);
+
 const temp="";
 const todaydate = date.getDate();
 const weatherDesc = "Search for Temperature";
