@@ -2,9 +2,9 @@
   "version": 2,
   "name": "weatherproject",
   "builds": [
-    { "main": "./app.js", "use": "@vercel/node" }
+    { "src": "./app.js", "use": "@vercel/node" }
   ],
   "routes": [
-    { "main": "/(.*)", "dest": "/" }
+    { "src": "/(.*)", "dest": "/" }
   ]
  }
